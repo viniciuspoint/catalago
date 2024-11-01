@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/fotos/ico.logo2.png" type="image/x-icon">
+    <title>ALTO DESEMPENHO</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+    </style>
+</head>
+<body>
+    
+    <h1>MEDO DE MONTAR O SEU COMPUTADOR?
+        CONFIRA ABAIXO!</h1>
+        <p>Muitas pessoas tem um certo receio de <strong>"montar os próprios computadores"</strong>, seja por que é dificil, por que tem medo de estragar alguma peça ou por que não entende muito do assunto. Então acaba optando por um tecnico. Mas, esse medo pode acabar depois das aulas gratuitas sobre: montagem de computadores, manutenção, limpeza, atualização de bios, identificar problemas de incompatibilidade e muito mais!</p>
+    <ul>
+        <div class="aloba">
+            <img src="imagens/fotos/catalogo/12101520199034.webp" alt="">
+            <p> <li><a href="https://www.kabum.com.br/?utm_id=a72385815&gad_source=1&gclid=Cj0KCQjwsoe5BhDiARIsAOXVoUsnLcpr0ghmmlw4_Oqb0rgGNeAdWCmY2cyW86_WU5qQIMqziANCGSEaAkX3EALw_wcB"target="_blank">✔ PEÇAS DE QUALIDADE ✔</a></li> </p>
+        </div>
+        <div class="maximus1">
+            <img src="imagens/fotos/catalogo/Curso de Montagem e Manutenção de Computadores.jpg" alt="">
+            <p> <li><a href="https://www.youtube.com/watch?v=GwLpaf3q6oA"target="_blank">✔ MONTAGEM ✔</a></li></p>
+        </div>
+        <div class="lubes">
+            <img src="imagens/fotos/catalogo/channels4_profile.jpg" alt="">
+            <p> <li><a href="https://www.adrenaline.com.br/"target="_blank">✔ POR DENTRO DO MUNDO DA TECNOLOGIA ✔</a></li> </p>
+        </div>
+    </ul>        
+
+  
+     
+        
+
+
+</body>
+</html>
+
+CSS
+
+  @charset "UTF-8";
+
+body{
+    background-color: rgb(41, 37, 37);
+
+    font-size: 15px;
+
+}
+
+h1{
+    color: #71c510;
+    text-align: center;
+   
+   
+}
+
+p{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: arial, Arial, Helvetica, sans-serif;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color: #71c510;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+a:hover{
+    color: rgb(0, 238, 255);
+}
+
+.aloba img {
+    height: 300px;
+    width: 300px;
+}
+.maximus1 img{
+    height: 300px;
+    width: 300px;
+
+}
+.lubes img{
+    height: 300px;
+    width: 300px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
